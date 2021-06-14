@@ -1,4 +1,17 @@
 # PrimeExperts
 Curso Robot - Prime Experts da Prime Control
 
-Teste de Validação
+
+- Como subir uma alteração no GitHub
+    - 1º faz uma modificação no arquivo la no visual code
+    - 2º git add . (para adicionar as modificações)
+    - 3º git commit -m "Uma mensagem explicativa" (para efetivar a alteração)
+    - 4º git push
+
+git config --global user.email "you@example.com"
+git config --global user.name "you"
+
+git clone https://github.com/marcos-becker/PrimeExperts.git
+
+pode usar Credencias do Windows para ajustar os dados de usuário
+
