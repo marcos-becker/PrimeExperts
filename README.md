@@ -15,3 +15,7 @@ git clone https://github.com/marcos-becker/PrimeExperts.git
 
 pode usar Credencias do Windows para ajustar os dados de usuário
 
+- Variáveis declaradas na seção *** Variables *** tem o escopo GLOBAL!    
+- Set Test Variable = faz com que todas as KWs do teste enxerguem a variável!
+- Set Suite Variable = faz com que todas os testes da suíte enxerguem a variável!
+- Set Global Variable = faz com que todas suítes da execução enxerguem a variável!
