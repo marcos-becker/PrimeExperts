@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210614 21:35:06.173" rpa="false" schemaversion="2">
-<suite id="s1" name="Variables" source="C:\Users\marco\Dropbox\TestedeSoftware\Robot\PrimeExperts\variables">
-<suite id="s1-s1" name="Teste Variaveis" source="C:\Users\marco\Dropbox\TestedeSoftware\Robot\PrimeExperts\variables\teste_variaveis.robot">
-<test id="s1-s1-t1" name="Meu Teste de Impressão de Mensagem no Terminal">
-<kw name="Logar no meu Terminal uma Mensagem">
-<kw name="Log To Console" library="BuiltIn">
-<arg>${\n}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20210614 21:35:06.262" endtime="20210614 21:35:06.263"/>
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210615 20:02:00.928" rpa="false" schemaversion="2">
+<suite id="s1" name="Exercicio20210616" source="C:\Users\marco\Dropbox\TestedeSoftware\Robot\PrimeExperts\Variables\Argumentos_Retornos\Exercicio20210616.robot">
+<test id="s1-t1" name="Testar Criação de E-mails">
+<kw name="Criar e-mail">
+<var>${e-mail}</var>
+<arg>${Dados.nome}</arg>
+<arg>${Dados.sobrenome}</arg>
+<arg>${Dados.idade}</arg>
+<msg timestamp="20210615 20:02:00.982" level="INFO">${e-mail} = marcos.becker.40@robot.com</msg>
+<status status="PASS" starttime="20210615 20:02:00.975" endtime="20210615 20:02:00.982"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
-<arg>${MENSAGEM}</arg>
+<arg>O e-mail formado é: ${e-mail}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20210614 21:35:06.263" endtime="20210614 21:35:06.263"/>
+<status status="PASS" starttime="20210615 20:02:00.983" endtime="20210615 20:02:00.984"/>
 </kw>
-<status status="PASS" starttime="20210614 21:35:06.262" endtime="20210614 21:35:06.263"/>
-</kw>
-<status status="PASS" starttime="20210614 21:35:06.261" endtime="20210614 21:35:06.264"/>
+<status status="PASS" starttime="20210615 20:02:00.974" endtime="20210615 20:02:00.984"/>
 </test>
-<doc>Meu teste de Variaveis</doc>
-<status status="PASS" starttime="20210614 21:35:06.254" endtime="20210614 21:35:06.265"/>
-</suite>
-<status status="PASS" starttime="20210614 21:35:06.177" endtime="20210614 21:35:06.266"/>
+<doc>Teste de Argumentos e Retornos</doc>
+<status status="PASS" starttime="20210615 20:02:00.934" endtime="20210615 20:02:00.986"/>
 </suite>
 <statistics>
 <total>
@@ -30,8 +27,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Variables">Variables</stat>
-<stat pass="1" fail="0" skip="0" id="s1-s1" name="Teste Variaveis">Variables.Teste Variaveis</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Exercicio20210616">Exercicio20210616</stat>
 </suite>
 </statistics>
 <errors>
