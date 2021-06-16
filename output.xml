@@ -1,91 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210615 21:12:56.347" rpa="false" schemaversion="2">
-<suite id="s1" name="Exercicio2 FOR" source="C:\Users\marco\Dropbox\TestedeSoftware\Robot\PrimeExperts\For\Exercicio2_FOR.robot">
-<test id="s1-t1" name="Teste de Imprimir Lista">
-<kw name="Imprimir Lista">
-<for flavor="IN">
-<var>${pais}</var>
-<value>@{PAISES}</value>
-<iter>
-<var name="${pais}">maça</var>
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210615 21:41:07.189" rpa="false" schemaversion="2">
+<suite id="s1" name="Exercicio IF" source="C:\Users\marco\Dropbox\TestedeSoftware\Robot\PrimeExperts\IF\Exercicio_IF.robot">
+<test id="s1-t1" name="Teste de 5 ou 8 na Lista 0 a 10">
+<kw name="Imprimir 5 ou 8">
 <kw name="Log To Console" library="BuiltIn">
-<arg>País: ${pais}</arg>
+<arg>${\n}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20210615 21:12:56.401" endtime="20210615 21:12:56.403"/>
+<status status="PASS" starttime="20210615 21:41:07.255" endtime="20210615 21:41:07.258"/>
 </kw>
-<status status="PASS" starttime="20210615 21:12:56.401" endtime="20210615 21:12:56.403"/>
+<for flavor="IN RANGE">
+<var>${numero}</var>
+<value>0</value>
+<value>11</value>
+<iter>
+<var name="${numero}">0</var>
+<if>
+<branch type="IF" condition="${numero} == 5 or ${numero} == 8">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Numero: ${numero}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20210615 21:41:07.260" endtime="20210615 21:41:07.260"/>
+</kw>
+<status status="NOT RUN" starttime="20210615 21:41:07.260" endtime="20210615 21:41:07.260"/>
+</branch>
+<status status="PASS" starttime="20210615 21:41:07.259" endtime="20210615 21:41:07.260"/>
+</if>
+<status status="PASS" starttime="20210615 21:41:07.259" endtime="20210615 21:41:07.260"/>
 </iter>
 <iter>
-<var name="${pais}">banana</var>
+<var name="${numero}">1</var>
+<if>
+<branch type="IF" condition="${numero} == 5 or ${numero} == 8">
 <kw name="Log To Console" library="BuiltIn">
-<arg>País: ${pais}</arg>
+<arg>Numero: ${numero}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20210615 21:12:56.404" endtime="20210615 21:12:56.407"/>
+<status status="NOT RUN" starttime="20210615 21:41:07.261" endtime="20210615 21:41:07.262"/>
 </kw>
-<status status="PASS" starttime="20210615 21:12:56.404" endtime="20210615 21:12:56.408"/>
+<status status="NOT RUN" starttime="20210615 21:41:07.261" endtime="20210615 21:41:07.262"/>
+</branch>
+<status status="PASS" starttime="20210615 21:41:07.261" endtime="20210615 21:41:07.262"/>
+</if>
+<status status="PASS" starttime="20210615 21:41:07.261" endtime="20210615 21:41:07.262"/>
 </iter>
 <iter>
-<var name="${pais}">laranja</var>
+<var name="${numero}">2</var>
+<if>
+<branch type="IF" condition="${numero} == 5 or ${numero} == 8">
 <kw name="Log To Console" library="BuiltIn">
-<arg>País: ${pais}</arg>
+<arg>Numero: ${numero}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20210615 21:12:56.408" endtime="20210615 21:12:56.410"/>
+<status status="NOT RUN" starttime="20210615 21:41:07.263" endtime="20210615 21:41:07.263"/>
 </kw>
-<status status="PASS" starttime="20210615 21:12:56.408" endtime="20210615 21:12:56.410"/>
+<status status="NOT RUN" starttime="20210615 21:41:07.263" endtime="20210615 21:41:07.263"/>
+</branch>
+<status status="PASS" starttime="20210615 21:41:07.262" endtime="20210615 21:41:07.263"/>
+</if>
+<status status="PASS" starttime="20210615 21:41:07.262" endtime="20210615 21:41:07.263"/>
 </iter>
 <iter>
-<var name="${pais}">uva</var>
+<var name="${numero}">3</var>
+<if>
+<branch type="IF" condition="${numero} == 5 or ${numero} == 8">
 <kw name="Log To Console" library="BuiltIn">
-<arg>País: ${pais}</arg>
+<arg>Numero: ${numero}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20210615 21:12:56.411" endtime="20210615 21:12:56.412"/>
+<status status="NOT RUN" starttime="20210615 21:41:07.265" endtime="20210615 21:41:07.266"/>
 </kw>
-<status status="PASS" starttime="20210615 21:12:56.411" endtime="20210615 21:12:56.413"/>
+<status status="NOT RUN" starttime="20210615 21:41:07.265" endtime="20210615 21:41:07.266"/>
+</branch>
+<status status="PASS" starttime="20210615 21:41:07.264" endtime="20210615 21:41:07.266"/>
+</if>
+<status status="PASS" starttime="20210615 21:41:07.263" endtime="20210615 21:41:07.268"/>
 </iter>
 <iter>
-<var name="${pais}">abacaxi</var>
+<var name="${numero}">4</var>
+<if>
+<branch type="IF" condition="${numero} == 5 or ${numero} == 8">
 <kw name="Log To Console" library="BuiltIn">
-<arg>País: ${pais}</arg>
+<arg>Numero: ${numero}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20210615 21:12:56.413" endtime="20210615 21:12:56.414"/>
+<status status="NOT RUN" starttime="20210615 21:41:07.269" endtime="20210615 21:41:07.270"/>
 </kw>
-<status status="PASS" starttime="20210615 21:12:56.413" endtime="20210615 21:12:56.414"/>
+<status status="NOT RUN" starttime="20210615 21:41:07.269" endtime="20210615 21:41:07.270"/>
+</branch>
+<status status="PASS" starttime="20210615 21:41:07.268" endtime="20210615 21:41:07.270"/>
+</if>
+<status status="PASS" starttime="20210615 21:41:07.268" endtime="20210615 21:41:07.270"/>
 </iter>
 <iter>
-<var name="${pais}">pera</var>
+<var name="${numero}">5</var>
+<if>
+<branch type="IF" condition="${numero} == 5 or ${numero} == 8">
 <kw name="Log To Console" library="BuiltIn">
-<arg>País: ${pais}</arg>
+<arg>Numero: ${numero}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20210615 21:12:56.415" endtime="20210615 21:12:56.416"/>
+<status status="PASS" starttime="20210615 21:41:07.271" endtime="20210615 21:41:07.272"/>
 </kw>
-<status status="PASS" starttime="20210615 21:12:56.414" endtime="20210615 21:12:56.417"/>
+<status status="PASS" starttime="20210615 21:41:07.271" endtime="20210615 21:41:07.273"/>
+</branch>
+<status status="PASS" starttime="20210615 21:41:07.271" endtime="20210615 21:41:07.273"/>
+</if>
+<status status="PASS" starttime="20210615 21:41:07.270" endtime="20210615 21:41:07.274"/>
 </iter>
 <iter>
-<var name="${pais}">melancia</var>
+<var name="${numero}">6</var>
+<if>
+<branch type="IF" condition="${numero} == 5 or ${numero} == 8">
 <kw name="Log To Console" library="BuiltIn">
-<arg>País: ${pais}</arg>
+<arg>Numero: ${numero}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20210615 21:12:56.417" endtime="20210615 21:12:56.418"/>
+<status status="NOT RUN" starttime="20210615 21:41:07.283" endtime="20210615 21:41:07.283"/>
 </kw>
-<status status="PASS" starttime="20210615 21:12:56.417" endtime="20210615 21:12:56.418"/>
+<status status="NOT RUN" starttime="20210615 21:41:07.283" endtime="20210615 21:41:07.283"/>
+</branch>
+<status status="PASS" starttime="20210615 21:41:07.275" endtime="20210615 21:41:07.283"/>
+</if>
+<status status="PASS" starttime="20210615 21:41:07.274" endtime="20210615 21:41:07.285"/>
 </iter>
 <iter>
-<var name="${pais}">morango</var>
+<var name="${numero}">7</var>
+<if>
+<branch type="IF" condition="${numero} == 5 or ${numero} == 8">
 <kw name="Log To Console" library="BuiltIn">
-<arg>País: ${pais}</arg>
+<arg>Numero: ${numero}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20210615 21:12:56.418" endtime="20210615 21:12:56.423"/>
+<status status="NOT RUN" starttime="20210615 21:41:07.287" endtime="20210615 21:41:07.287"/>
 </kw>
-<status status="PASS" starttime="20210615 21:12:56.418" endtime="20210615 21:12:56.423"/>
+<status status="NOT RUN" starttime="20210615 21:41:07.286" endtime="20210615 21:41:07.287"/>
+</branch>
+<status status="PASS" starttime="20210615 21:41:07.286" endtime="20210615 21:41:07.287"/>
+</if>
+<status status="PASS" starttime="20210615 21:41:07.285" endtime="20210615 21:41:07.287"/>
 </iter>
-<status status="PASS" starttime="20210615 21:12:56.399" endtime="20210615 21:12:56.423"/>
+<iter>
+<var name="${numero}">8</var>
+<if>
+<branch type="IF" condition="${numero} == 5 or ${numero} == 8">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Numero: ${numero}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210615 21:41:07.289" endtime="20210615 21:41:07.290"/>
+</kw>
+<status status="PASS" starttime="20210615 21:41:07.288" endtime="20210615 21:41:07.291"/>
+</branch>
+<status status="PASS" starttime="20210615 21:41:07.288" endtime="20210615 21:41:07.291"/>
+</if>
+<status status="PASS" starttime="20210615 21:41:07.287" endtime="20210615 21:41:07.291"/>
+</iter>
+<iter>
+<var name="${numero}">9</var>
+<if>
+<branch type="IF" condition="${numero} == 5 or ${numero} == 8">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Numero: ${numero}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20210615 21:41:07.292" endtime="20210615 21:41:07.292"/>
+</kw>
+<status status="NOT RUN" starttime="20210615 21:41:07.292" endtime="20210615 21:41:07.292"/>
+</branch>
+<status status="PASS" starttime="20210615 21:41:07.291" endtime="20210615 21:41:07.292"/>
+</if>
+<status status="PASS" starttime="20210615 21:41:07.291" endtime="20210615 21:41:07.292"/>
+</iter>
+<iter>
+<var name="${numero}">10</var>
+<if>
+<branch type="IF" condition="${numero} == 5 or ${numero} == 8">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Numero: ${numero}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20210615 21:41:07.295" endtime="20210615 21:41:07.295"/>
+</kw>
+<status status="NOT RUN" starttime="20210615 21:41:07.295" endtime="20210615 21:41:07.297"/>
+</branch>
+<status status="PASS" starttime="20210615 21:41:07.294" endtime="20210615 21:41:07.297"/>
+</if>
+<status status="PASS" starttime="20210615 21:41:07.292" endtime="20210615 21:41:07.297"/>
+</iter>
+<status status="PASS" starttime="20210615 21:41:07.258" endtime="20210615 21:41:07.297"/>
 </for>
-<status status="PASS" starttime="20210615 21:12:56.398" endtime="20210615 21:12:56.425"/>
+<status status="PASS" starttime="20210615 21:41:07.254" endtime="20210615 21:41:07.298"/>
 </kw>
-<status status="PASS" starttime="20210615 21:12:56.397" endtime="20210615 21:12:56.425"/>
+<status status="PASS" starttime="20210615 21:41:07.251" endtime="20210615 21:41:07.300"/>
 </test>
-<doc>Exercicio de FOR</doc>
-<status status="PASS" starttime="20210615 21:12:56.353" endtime="20210615 21:12:56.430"/>
+<doc>Testes de Condição (IF)</doc>
+<status status="PASS" starttime="20210615 21:41:07.196" endtime="20210615 21:41:07.324"/>
 </suite>
 <statistics>
 <total>
@@ -94,7 +193,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Exercicio2 FOR">Exercicio2 FOR</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Exercicio IF">Exercicio IF</stat>
 </suite>
 </statistics>
 <errors>
