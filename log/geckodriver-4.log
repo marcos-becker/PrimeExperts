@@ -1,0 +1,17 @@
+1624222912899	geckodriver	INFO	Listening on 127.0.0.1:57425
+1624222915866	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileZXR50f"
+1624222916784	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileZXR50f\\search.json.mozlz4", (void 0)))
+1624222921399	Marionette	INFO	Listening on port 57436
+1624222921734	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624222936548	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request http://ff.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cDovL2F1dG9tYXRpb25wcmFjdGljZS5jb20vaW5kZXgucGhwP2NvbnRyb2xsZXI9c2VhcmNoJm9yZGVyYnk9cG9zaXRpb24mb3JkZXJ3YXk9ZGVzYyZzZWFyY2hfcXVlcnk9aXRlbU4lQzMlQTNvRXhpc3RlbnRlJnN1Ym1pdF9zZWFyY2g9 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request http://fonts.googleapis.com/css?family=Open+Sans:300,600&subset=latin,latin-ext without a browsingContextID set
+1624223607554	Marionette	INFO	Stopped listening on port 57436
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

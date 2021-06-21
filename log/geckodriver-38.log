@@ -1,0 +1,12 @@
+1624232341670	geckodriver	INFO	Listening on 127.0.0.1:50947
+1624232344653	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofile1zoxD4"
+1624232345342	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofile1zoxD4\\search.json.mozlz4", (void 0)))
+1624232348913	Marionette	INFO	Listening on port 50956
+1624232348978	Marionette	WARN	TLS certificate errors will be ignored for this session
+1624232360361	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1624232612841	Marionette	INFO	Stopped listening on port 50956

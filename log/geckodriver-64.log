@@ -1,0 +1,11 @@
+1624236216916	geckodriver	INFO	Listening on 127.0.0.1:50590
+1624236219936	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileYv0hlP"
+1624236220654	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileYv0hlP\\search.json.mozlz4", (void 0)))
+1624236224647	Marionette	INFO	Listening on port 49855
+1624236224796	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/SelectChild.jsm, line 287: TypeError: InspectorUtils.setContentState: Argument 1 is not an object.
+1624237007206	Marionette	INFO	Stopped listening on port 49855
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
